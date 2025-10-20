@@ -1,0 +1,17 @@
+{
+  "name": "minepotato-proto",
+  "version": "1.0.0",
+  "description": "Multiplayer first-person voxel prototype (Potato-themed)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.13.0",
+    "uuid": "^9.0.0"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
