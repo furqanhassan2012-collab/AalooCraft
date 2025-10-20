@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>MinePotato — Prototype</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="hud">
+    <div id="cross">+</div>
+    <div id="info">Left click: mine · Right click: place · 1-3: select block</div>
+    <div id="inventory">
+      <button data-block="dirt" class="sel">Dirt</button>
+      <button data-block="stone">Stone</button>
+      <button data-block="wood">Wood</button>
+    </div>
+    <div id="players"></div>
+    <div id="chatBox">
+      <div id="chatLog"></div>
+      <input id="chatIn" placeholder="Say something and press Enter" />
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/three@0.155.0/build/three.min.js"></script>
+  <script src="client.js"></script>
+</body>
+</html>
