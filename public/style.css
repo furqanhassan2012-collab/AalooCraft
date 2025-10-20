@@ -1,0 +1,11 @@
+html,body{height:100%;margin:0;overflow:hidden;background:#6fb36f}
+#hud{position:fixed;left:0;top:0;right:0;bottom:0;pointer-events:none}
+#cross{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);font-size:28px;color:rgba(255,255,255,0.9);pointer-events:none}
+#info{position:fixed;left:12px;bottom:12px;color:white;background:rgba(0,0,0,0.35);padding:6px 8px;border-radius:6px;font-family:sans-serif;pointer-events:none}
+#inventory{position:fixed;left:12px;bottom:50px;display:flex;gap:6px;pointer-events:auto}
+#inventory button{pointer-events:auto;padding:6px 8px;border-radius:6px;border:0;background:#ffefc091}
+#inventory button.sel{outline:3px solid #ffd54a}
+#players{position:fixed;right:12px;top:12px;color:white;background:rgba(0,0,0,0.25);padding:8px;border-radius:6px;font-family:sans-serif}
+#chatBox{position:fixed;right:12px;bottom:12px;width:260px;background:rgba(0,0,0,0.35);border-radius:6px;padding:8px;color:white;font-family:sans-serif}
+#chatLog{height:120px;overflow:auto;font-size:13px;margin-bottom:6px}
+#chatIn{width:100%;padding:6px;border-radius:4px;border:0}
